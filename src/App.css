@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 body {
-  background-image: url("/public/image.png"); /* Attention au "/" */
+  background-image: url("/public/image.png"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

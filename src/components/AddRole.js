@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import API from "../api/axiosInstance"; // Utilise l'instance avec interceptor
+import API from "../api/axiosInstance"; 
 import { useNavigate } from "react-router-dom";
 
 function AddRole() {
