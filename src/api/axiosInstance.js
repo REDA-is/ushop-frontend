@@ -37,7 +37,7 @@ API.interceptors.response.use(
           localStorage.setItem("accessToken", newAccessToken);
 
           originalRequest.headers.Authorization = `Bearer ${newAccessToken}`;
-          return axios(originalRequest);
+          return API(originalRequest); 
         } catch (err) {
           console.error("Échec du rafraîchissement du token", err);
         }
